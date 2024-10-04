@@ -1,0 +1,67 @@
+.mainContainer {
+    background-color: rgb(58, 203, 18);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container1 {
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Border shadow */
+    padding: 20px;
+    position: relative;
+  }
+  
+  h2 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  #startBtn {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  #startBtn:hover {
+    background-color: darkgreen;
+    transform: scale(1.05);
+  }
+  
+  /* Rocket icon styling with rounded border and shadow */
+  .rocketIcon {
+    background-color: white;
+    font-size: 3rem;
+    color: green;
+    padding: 2px;
+    border: 1px solid black;  /* Black border */
+    border-radius: 50%;       /* Rounded border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    margin-bottom: 20px;      /* Add space below the icon */
+    transition: transform 0.3s ease; /* Add a smooth hover effect */
+    margin-top: -70px;
+  }
+  
+  .rocketIcon:hover {
+    transform: scale(1.1); /* Scale up on hover for interactivity */
+  }
+  
